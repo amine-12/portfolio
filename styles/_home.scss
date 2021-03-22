@@ -1,0 +1,46 @@
+.nav-container {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  background: #070707;
+}
+
+nav {
+  width: 90%;
+  margin: auto;
+  height: 8vh;
+  padding: 3rem 0rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+  }
+  .sign {
+    background: #f54538;
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+    margin: 1rem;
+    text-decoration: none;
+    color: white;
+  }
+}
+
+#showcase{
+  min-height:400px;
+  background: url("..//img/showcase.jpg") no-repeat 0 -400px;
+  text-align:center;
+  color:#ffffff;
+  h1{
+    font-size: 6rem;
+  }
+}
+
+#logo{
+  font-size: 4rem;
+  font-family: "Lobster", sans-serif;
+  font-weight: lighter;
+}
